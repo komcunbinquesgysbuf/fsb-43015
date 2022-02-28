@@ -20,7 +20,19 @@ sections:
   gallery: []
 - template: include
   file: src/articles/teaser-kita-kurzportrait.md
+- template: section
+  content: "[mehr…](/teaser-kita-kurzportrait)"
+  title: ''
+  subtitle: ''
+  image: ''
+  gallery: []
 - template: include
   file: src/articles/teaser-padagogik.md
+- template: section
+  content: "[mehr…](/teaser-paedagogik)"
+  title: ''
+  subtitle: ''
+  image: ''
+  gallery: []
 
 ---
