@@ -4,7 +4,7 @@ title: Startseite
 subtitle: ''
 isArticle: false
 author: ''
-image: ''
+image: "/media-2d966712/2022-02/01.jpg"
 gallery: []
 
 ---
