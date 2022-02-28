@@ -4,7 +4,7 @@ title: Teaser Kita Kurzportrait
 subtitle: ''
 isArticle: false
 author: ''
-image: "/media-2d966712/2022-02/02.jpg"
+image: "/media-2d966712/2022-02/42ac4c67-1f77-11eb-95e6-48df37920e6f.jpg"
 gallery: []
 
 ---
