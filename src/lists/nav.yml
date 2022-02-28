@@ -9,7 +9,7 @@ submenu:
     file: src/pages/kurzportrait.md
     title: ''
   - submenu: []
-    file: src/pages/padagogische-aspekte.md
+    file: src/pages/paedagogische-aspekte.md
     title: ''
   file: src/pages/kita.md
   title: ''

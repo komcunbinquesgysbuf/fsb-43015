@@ -21,7 +21,7 @@ sections:
 - template: include
   file: src/articles/teaser-kita-kurzportrait.md
 - template: section
-  content: "[mehr…](/teaser-kita-kurzportrait)"
+  content: "[mehr…](/kurzportrait)"
   title: ''
   subtitle: ''
   image: ''
@@ -29,7 +29,7 @@ sections:
 - template: include
   file: src/articles/teaser-padagogik.md
 - template: section
-  content: "[mehr…](/teaser-paedagogik)"
+  content: "[mehr…](/paedagogische-aspekte)"
   title: ''
   subtitle: ''
   image: ''
