@@ -53,3 +53,4 @@ fields:
   label: Galerie
 pages:
 - src/pages/startseite.md
+- src/pages/verein.md
