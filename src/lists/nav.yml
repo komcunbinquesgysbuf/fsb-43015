@@ -4,4 +4,13 @@ submenu:
 - submenu: []
   file: src/pages/verein.md
   title: ''
+- submenu:
+  - submenu: []
+    file: src/pages/kurzportrait.md
+    title: ''
+  - submenu: []
+    file: src/pages/padagogische-aspekte.md
+    title: ''
+  file: src/pages/kita.md
+  title: ''
 title: ''
