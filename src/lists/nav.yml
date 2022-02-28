@@ -1,16 +1,7 @@
 ---
 file: src/pages/startseite.md
 submenu:
-- file: src/pages/hello-world.md
+- submenu: []
+  file: src/pages/verein.md
   title: ''
-  submenu: []
-- file: src/pages/hjkashasjd.md
-  title: ''
-  submenu: []
-- file: src/pages/test.md
-  title: ''
-  submenu: []
-- file: src/pages/news/first.md
-  title: ''
-  submenu: []
 title: ''
