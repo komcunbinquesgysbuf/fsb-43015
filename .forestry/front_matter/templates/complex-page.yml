@@ -19,7 +19,6 @@ fields:
     min: 
     max: 
 pages:
-- src/pages/beispiele/komplexe-seite.md
 - src/pages/kita.md
 - src/pages/kurzportrait.md
 - src/pages/paedagogische-aspekte.md

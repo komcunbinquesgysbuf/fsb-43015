@@ -11,3 +11,4 @@ fields:
   label: Einträge
 pages:
 - src/lists/authors.yml
+- src/lists/foo.yml
