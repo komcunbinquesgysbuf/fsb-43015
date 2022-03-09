@@ -1,4 +1,18 @@
 ---
 label: filenametest
 hide_body: true
-fields: []
+fields:
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: text
+  type: text
+  config:
+    required: false
+  label: text
