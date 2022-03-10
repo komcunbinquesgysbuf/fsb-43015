@@ -1,6 +1,0 @@
----
-file: []
-date: 
-title: sdfs
-
----
