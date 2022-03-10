@@ -17,5 +17,17 @@ fields:
   config:
     required: false
   label: title
+- name: file
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: 
+      file: 
+      path: 
+  label: file
 pages:
 - src/filenametest/dfgsdfg.md
