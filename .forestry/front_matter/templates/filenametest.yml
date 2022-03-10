@@ -12,11 +12,11 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: title
+- name: name
   type: text
   config:
     required: false
-  label: title
+  label: name
 - name: file
   type: select
   default: []
