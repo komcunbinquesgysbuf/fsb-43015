@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "LaChata";
+    font-weight: 400;
+    src: url("la-chata.lachata.otf") format("opentype");
+}
+:root {
+    --building-red: #a30;
+    --building-yellow: #c80;
+    --building-blue: #049;
+    --building-teal: #077;
+    --building-skyblue: #9be;
+    --building-grass: #480;
+    --dark-text: #111;
+    --light-text: #eee;
+}
+* { margin: 0; padding: 0 }
+body { color: var(--dark-text) }
+header { padding: 1rem 15vw }
+main { padding: 5vw 15vw 10vw 15vw }
+blockquote, dl, figure, hr, menu, ol, p, pre, table, ul { margin: 1rem 0 }
+nav a { text-decoration: none }
+nav > [href="#main"] { position: absolute; top: -2.5rem; left: 0; z-index: 1; transition: top .4s ease; padding: .5rem 1rem; background-color: var(--skip-link-background); color: var(--skip-link-colour); border-bottom-right-radius: .5rem }
+nav > [href="#main"]:focus { top: 0 }
+nav > [href="#menu"] { display: flex; flex-flow: column; justify-content: space-between; font-size: 0; width: 1rem; height: 1rem; transition: all .4s ease }
+nav > [href="#menu"]:before, [href="#menu"] > span, [href="#menu"]:after { content: ""; padding: .2rem 0 0 0; background-color: var(--dark-text); color: var(--light-text); border-radius: .2rem }
+nav > [href="#menu"]:before { border-top-left-radius: .5rem; border-top-right-radius: .5rem }
+nav > [href="#menu"]:after { border-bottom-left-radius: .5rem; border-bottom-right-radius: .5rem }
+nav > menu > li { list-style: none; margin: 0 1rem .2rem 0; padding: .2rem .5rem; border-bottom-left-radius: .6rem; border-top-right-radius: .6rem }
+nav > menu > li > a { color: var(--menu-item-colour) }
+nav > menu > li.image { padding: 0; background-color: initial }
+nav > menu > li.image img { vertical-align: middle; border-bottom-left-radius: .6rem; border-top-right-radius: .6rem }
+nav > menu > li.image a { position: relative }
+nav > menu > li.image a::after { content: ""; position: absolute; left: 0; width: 60px; height: 60px; border: 2px solid #000; border-bottom-left-radius: .6rem; border-top-right-radius: .6rem }
+footer {
+    padding: 0;
+    position: relative;
+    height: 35px;
+    background: var(--building-grass) url("spatzennest-am-birkenwaeldchen.gif") bottom right / contain no-repeat;
+}
+footer::before {
+    content: "";
+    position: absolute;
+    inset: 0 80px 0 0;
+    background: var(--building-skyblue);
+    height: 22px;
+}
+@supports selector(:focus-within) {
+    nav > menu { position: relative; left: -20rem; max-width: 20rem; margin: 0; max-height: 0; transition: all .4s ease }
+    nav:focus-within > menu { left: 0; margin: 1rem 0; max-height: 20rem }
+    nav:focus-within > menu > li { background-color: var(--menu-item-background) }
+    nav:focus-within > menu > li.image { background-color: initial }
+}
+@media only screen and (min-width: 50rem) {
+    nav > [href="#menu"] { position: absolute; top: -2.5rem }
+    nav > menu { left: 0; max-height: 10rem; margin: 1rem 0; display: flex; align-items: center }
+    nav > menu > li { background-color: var(--menu-item-background) }
+    /*nav > [href="#main"]:focus ~ menu { left: 8rem }*/
+    footer { height: 3.5vw }
+    footer::before { inset: 0 8vw 0 0; height: 2.2vw }
+}
